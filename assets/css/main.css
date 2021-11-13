@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-display: swap;
+	src: url('assets/fonts/OpenSans-Regular.woff') format('woff'), url('assets/fonts/OpenSans-Regular') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 13pt;
+	background-color: #141414;
+	color: #FAFAFA;
+}
+
+a {	
+	text-decoration: underline;
+	color: #66768F;
+}
+
+a:hover {
+	color: #7D8CA3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+} 
+
+h3 {
+    font-size: 1.5em;
+}	
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+.center {
+	margin: 0 auto;
+	width: 1200px;
+	max-width: 87%;
+}
+
+#site-header {
+	float: left;
+	width: 100%;
+}
+
+#site-title {
+	float:  left;
+	margin-top: 20px;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+#page-content {
+	float: left;
+	width: 100%;
+}
+
+#motto {
+	margin-top: 5px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#tools {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:  row;
+	float: left;
+	margin-top: 60px;
+	width: 100%;
+}
+
+#tools a {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#tools a:hover .icon {
+	opacity: 1;
+}
+
+#tools span {
+	margin-left: 20px;
+}
+
+#tools img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+
+	#motto {
+		margin-top: 15px;
+		font-size: 1.1em;
+	}
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+	#motto {
+		margin-top: 25px;
+		font-size: 1.1em;
+	}
+
+	#tools h4 {
+		font-size: 1em;
+	}
+
+}
