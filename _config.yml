@@ -1,0 +1,21 @@
+title: CriptoArgentina.net
+description: Bitcoin y criptografía fuerte para una sociedad más resiliente 
+url: https://criptoargentina.net
+language: es
+baseurl: ''
+
+social:
+  reddit: CriptoArgentina
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
