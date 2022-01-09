@@ -3,8 +3,10 @@
 		<div id="site-title">
 			<img id="logo" src="{{ site.baseurl }}/assets/img/icons/logo-50x50.png" alt="CriptoArgentina.net" />
 		</div>
-		<div id="social">
-			<a href="https://www.reddit.com/r/{{ site.social.reddit }}/"><i class="icon-reddit-square"></i></a>
-		</div>
+		<nav id="site-nav">
+			{% for item in site.data.nav %}
+				<a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+			{% endfor %}
+		</nav>
 	</div>
 </header>
