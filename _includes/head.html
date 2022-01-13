@@ -6,4 +6,8 @@
 	<meta name="description" content="Bitcoin y criptografía fuerte para una sociedad más resiliente." />
 	<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/icons/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
+
+	{% if page.css %}
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/{{ page.css }}.css" />
+    {% endif %}
 </head>
