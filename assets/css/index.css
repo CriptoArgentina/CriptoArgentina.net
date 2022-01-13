@@ -1,0 +1,123 @@
+#page-content {
+	padding-top: 0 !important;
+}
+
+#motto {
+	float: left;
+	padding: 30px;
+	width: 100%;
+	margin-top: 5px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#left {
+	margin-right: 425px;	
+}
+
+#feed {
+	float: left;
+	width: 100%;
+	border: 1px solid #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#feed .item {
+	float: left;
+	width: 100%;
+	padding: 20px;
+}
+
+#feed .item:nth-child(2n+1) {
+    background-color: #222;
+}
+
+#feed .i-date {
+	font-size: 0.9em;
+}
+
+#feed .i-title {
+	font-size: 1.1em;
+}
+
+#feed .i-url {
+	font-size: 0.9em;
+}
+
+#right {
+	float: right;
+	width: 375px;
+}
+
+#tools .section {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#tools a {
+	float: left;
+	text-decoration: none;
+}
+
+#tools a:hover .icon {
+	opacity: 1;
+}
+
+#tools span {
+	margin-left: 20px;
+}
+
+#tools img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	opacity: 0.8;
+}
+
+.clear {
+	clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+
+	#right {
+		width: 300px;
+	}
+
+	#left {
+		margin-right: 350px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+
+	#motto {
+		font-size: 1.1em;
+	}
+
+	#left,
+	#right {
+		width: 100%;
+	}
+
+	#right {
+		margin-top: 20px;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	#motto {
+		font-size: 1.1em;
+	}
+
+	#tools h4 {
+		font-size: 1em;
+	}
+
+}
