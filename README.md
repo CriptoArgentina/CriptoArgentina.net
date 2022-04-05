@@ -2,7 +2,7 @@
 
 ![CriptoArgentina.net](/assets/img/bandera-argentina-bitcoin.png?raw=true "CriptoArgentina.net")
 
-Código fuente de [https://criptoargentina.net](https://criptoargentina.net/): Bitcoin y criptografía fuerte para una sociedad más resiliente.
+Código fuente de [https://criptoargentina.net](https://criptoargentina.net/): Cripto para una sociedad resiliente.
 
 
 ## Licencias de terceros
