@@ -19,3 +19,5 @@ compress_html:
   endings: all
   blanklines: false
   profile: false
+  ignore:
+    envs: [development]
