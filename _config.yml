@@ -7,6 +7,16 @@ baseurl: ''
 social:
   reddit: CriptoArgentina
 
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
+  - scope:
+      path: '_posts/'
+    values:
+      layout: 'post'
+
 sass:
   style: compressed
 

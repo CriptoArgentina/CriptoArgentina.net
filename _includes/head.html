@@ -7,7 +7,19 @@
 	<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/icons/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
 
+	{% if page.title %}
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <meta property="og:title" content="{{ page.title || escape }} - {{ site.title }}" />
+    {% else %}
+        <title>{{ site.title }}</title>
+        <meta property="og:title" content="{{ site.title }}" />
+    {% endif %}
+
 	{% if page.css %}
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/{{ page.css }}.css" />
+    {% endif %}
+
+    {% if layout.css %}
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/{{ layout.css }}.css" />
     {% endif %}
 </head>

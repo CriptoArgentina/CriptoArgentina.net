@@ -8,12 +8,12 @@ description: Cripto para una sociedad resiliente
 
 <div id="left">
 	<div id="feed">
+		{% for post in site.posts %}
 		<div class="item">
-			<div class="i-date">12/01/2022</div>
-			<div class="i-title">
-				Probando...
-			</div>
+			<div class="i-date">{{ post.date | date: "%b %d, %Y" }}</div>
+			<div class="i-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
 		</div>
+		{% endfor %}
 	</div>
 </div>
 
