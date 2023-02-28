@@ -7,7 +7,7 @@
 	padding: 30px;
 	width: 100%;
 	margin-top: 5px;
-	font-size: 1.3em;
+	font-size: 0.75em;
 	text-align: center;
 }
 
@@ -39,6 +39,7 @@
 }
 
 #feed .i-title {
+	margin-top: 5px;
 	font-size: 1.1em;
 }
 
